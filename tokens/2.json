@@ -1,0 +1,21 @@
+{
+    "name": "Intro to Traditional Finance - Winter 2023 - Poly-X-DeFi-NFT",
+    "description": "An official series of PolyU NFTs for the DeFi course!",
+    "external_url": "https://www.polyu.edu.hk/comp/",
+    "image": "ipfs://QmZLtYHr2uNVdErtMejdVqEmmVevsuGii9BUicNvr6A5Hv",
+    "tokenId": "2",
+    "attributes": [
+        {
+            "trait_type": "Lecture",
+            "value": "Lecture 3"
+        },
+        {
+            "trait_type": "Season",
+            "value": "Winter"
+        },
+        {
+            "trait_type": "Year",
+            "value": "2023"
+        }
+    ]
+}

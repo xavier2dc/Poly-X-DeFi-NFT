@@ -1,0 +1,25 @@
+{
+    "name": "The Economics of Stablecoins and The Politics of Central Bank Digital Currency - Winter 2023 - Poly-X-DeFi-NFT",
+    "description": "An official series of PolyU NFTs for the DeFi course!",
+    "external_url": "https://www.polyu.edu.hk/comp/",
+    "image": "ipfs://QmQbNSfWSM8qigTXDMjDbH1RjwuRD7JsfS134jkQ3fXYyt",
+    "tokenId": "6",
+    "attributes": [
+        {
+            "trait_type": "Lecture",
+            "value": "Lecture 8"
+        },
+        {
+            "trait_type": "Season",
+            "value": "Winter"
+        },
+        {
+            "trait_type": "Year",
+            "value": "2023"
+        },
+        {
+            "trait_type": "Guest",
+            "value": "Dr. Nathalie Janson"
+        }
+    ]
+}

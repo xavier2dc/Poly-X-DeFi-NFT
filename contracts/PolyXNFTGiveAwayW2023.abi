@@ -1,0 +1,55 @@
+[
+    {
+        inputs: [
+            {internalType: "bytes32", name: "_sealedSeed", type: "bytes32"},
+            {internalType: "address", name: "_pxdContract", type: "address"},
+        ],
+        stateMutability: "nonpayable",
+        type: "constructor",
+    },
+    {
+        inputs: [],
+        name: "destroy",
+        outputs: [],
+        stateMutability: "nonpayable",
+        type: "function",
+    },
+    {
+        inputs: [
+            {internalType: "bytes32", name: "_seed", type: "bytes32"},
+            {internalType: "address[]", name: "recipients", type: "address[]"},
+        ],
+        name: "giveAway",
+        outputs: [],
+        stateMutability: "nonpayable",
+        type: "function",
+    },
+    {
+        inputs: [],
+        name: "owner",
+        outputs: [{internalType: "address", name: "", type: "address"}],
+        stateMutability: "view",
+        type: "function",
+    },
+    {
+        inputs: [],
+        name: "pxdContract",
+        outputs: [{internalType: "address", name: "", type: "address"}],
+        stateMutability: "view",
+        type: "function",
+    },
+    {
+        inputs: [],
+        name: "sealedSeed",
+        outputs: [{internalType: "bytes32", name: "", type: "bytes32"}],
+        stateMutability: "view",
+        type: "function",
+    },
+    {
+        inputs: [],
+        name: "storedBlockNumber",
+        outputs: [{internalType: "uint256", name: "", type: "uint256"}],
+        stateMutability: "view",
+        type: "function",
+    },
+];
