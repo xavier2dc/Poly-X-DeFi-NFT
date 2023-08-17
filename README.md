@@ -2,7 +2,7 @@
 
 This repository contains the Solidity smart contracts that implement the ERC721 non-fungible token (NFT) called `Poly-X-DeFi-NFT` (published [on Ethereum](https://etherscan.io/token/0x6b0770ef27310057dc3269b67f8c725e7661518d)). It is simply based on [OpenZeppelin's implementation](https://wizard.openzeppelin.com/#erc721) of an ERC721 token that is mintable with auto-increment IDs, enumerable, with URI storage, and ownable.
 
-The initial series of 10+1 NFTs were minted during the during the Winter 2023 term of the Decentralized Finance (COMP5568) course at the Hong Kong Polytechnic University. You can view them on OpenSea [here](https://opensea.io/collection/poly-x-defi-nft).
+The initial series of 10+1 NFTs were minted during the Winter 2023 term of the Decentralized Finance (COMP5568) course at the Hong Kong Polytechnic University. You can view them on OpenSea [here](https://opensea.io/collection/poly-x-defi-nft).
 
 Minting NFTs for each lecture was a successful way to engage students and demonstrate how NFTs work.
 
@@ -16,7 +16,7 @@ At the end of the term, 10 NFTs were randomly distributed to students using the 
 - Upload the image for the first NFT to IPFS, note down the CID.
 - Create a metadata file to represent the NFT (refer to the files in the `tokens` folder). Make sure that the `tokenId`matches the expected token ID for the next NFT in the deployed contract, as the ID is auto-incremented. Adjust the `image` value to `ipfs://` followed by the CID of your image.
 - Upload the metadata file to IPFS, note down the CID.
-- Call `safeMint(address to, string memory uri)` by passing your address as `to` and the `ipfs://` followed by the CID of the metadata file as `uri`.
+- Call `safeMint(address to, string memory uri)` by passing your address as `to` and `ipfs://` followed by the CID of the metadata file as `uri`.
 - Go to [OpenSea](https://opensea.io/) and search for the address of your NFT contract to see the new NFT.
 
 ## Randomly distribute NFTs
